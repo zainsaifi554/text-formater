@@ -2,32 +2,6 @@
 
  export default function About({aboutText,mode}) {
 
-  
-//   const [changeStyle, setchangeStyle] = useState({
-//     color: 'white',
-//     backgroundColor: 'black'
-//   })
-  
-//   const [btnText,setBtnText] = useState('Enable dark mode')
-  
-
-//   const toggleStyle =()=>{
-//    if (changeStyle.color=="white"){
-//     setchangeStyle({
-//       color: 'black',
-//       backgroundColor: 'white'
-//     })
-//     
-//   }
-//     else{
-//       setchangeStyle({
-//         color: 'white',
-//         backgroundColor: 'black'
-//       })
-//       
-//    }
-//   }
-
   return (
     <div className='container my-3' >
       <h2>{aboutText}</h2>
